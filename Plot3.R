@@ -24,7 +24,7 @@ transformedInput <- transmute(requiredInput,
 
 #END - COMMON REGION
 
-# Code to generate plot4.png
+# Code to generate plot3.png
 png(file="plot3.png",width = 480, height = 480, units = "px")
 with(transformedInput,
      plot(datetime,Sub_metering_1,col="black",type="l",xlab = "",ylab="Energy sub metering"))
